@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <defs>
+    <radialGradient id="gold1" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" style="stop-color:#FFD700"/>
+      <stop offset="50%" style="stop-color:#D4AF37"/>
+      <stop offset="100%" style="stop-color:#8B6914"/>
+    </radialGradient>
+    <radialGradient id="gold2" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" style="stop-color:#FFE87C"/>
+      <stop offset="100%" style="stop-color:#D4AF37"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Outer petals -->
+  <path d="M100 40 Q130 60 120 85 Q115 110 100 100 Q85 110 80 85 Q70 60 100 40" fill="url(#gold1)" stroke="#000" stroke-width="2"/>
+  <path d="M100 35 Q70 60 80 85 Q85 110 100 100 Q115 110 120 85 Q130 60 100 35" fill="url(#gold1)" stroke="#000" stroke-width="2"/>
+  
+  <!-- Second layer -->
+  <path d="M100 50 Q120 70 115 85 Q110 100 100 95 Q90 100 85 85 Q80 70 100 50" fill="url(#gold2)" stroke="#000" stroke-width="1.5"/>
+  <path d="M100 45 Q115 60 112 80 Q108 95 100 90 Q92 95 88 80 Q85 60 100 45" fill="url(#gold2)" stroke="#000" stroke-width="1.5"/>
+  
+  <!-- Middle layer -->
+  <path d="M100 60 Q110 75 108 85 Q105 95 100 92 Q95 95 92 85 Q90 75 100 60" fill="url(#gold1)" stroke="#000" stroke-width="1.5"/>
+  <path d="M100 70 Q108 80 105 90 Q102 95 100 93 Q98 95 95 90 Q92 80 100 70" fill="url(#gold2)" stroke="#000" stroke-width="1"/>
+  
+  <!-- Inner petals -->
+  <path d="M100 75 Q105 85 102 92 Q100 95 98 92 Q95 85 100 75" fill="url(#gold2)" stroke="#000" stroke-width="1"/>
+  <path d="M100 80 Q103 88 101 92 Q100 94 99 92 Q97 88 100 80" fill="url(#gold1)" stroke="#000" stroke-width="0.8"/>
+  
+  <!-- Center bud -->
+  <ellipse cx="100" cy="95" rx="8" ry="12" fill="url(#gold1)" stroke="#000" stroke-width="1.5"/>
+  <ellipse cx="100" cy="92" rx="5" ry="8" fill="url(#gold2)" stroke="#000" stroke-width="1"/>
+  <ellipse cx="98" cy="88" rx="3" ry="5" fill="#FFE87C" opacity="0.7"/>
+</svg>
