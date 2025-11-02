@@ -57,17 +57,17 @@ const CartDrawer = ({ isOpen, onClose }) => {
                       <h3 className="font-semibold text-gray-900 mb-1">{item.name}</h3>
                       <p className="text-emerald font-bold">{formatPrice(item.price)}</p>
                       <div className="flex items-center space-x-3 mt-2">
-                        <div className="flex items-center space-x-2 border border-gray-300 rounded-lg">
+                        <div className="flex items-center space-x-2 border border-gray-300 dark:border-gray-600 rounded-lg">
                           <button
                             onClick={() => updateQuantity(item.id, item.quantity - 1)}
-                            className="p-1 hover:bg-gray-100"
+                            className="p-1 hover:bg-gray-100 dark:hover:bg-gray-700"
                           >
                             <Minus className="h-4 w-4" />
                           </button>
-                          <span className="px-2 font-semibold">{item.quantity}</span>
+                          <span className="px-2 font-semibold text-gray-900 dark:text-white">{item.quantity}</span>
                           <button
                             onClick={() => updateQuantity(item.id, item.quantity + 1)}
-                            className="p-1 hover:bg-gray-100"
+                            className="p-1 hover:bg-gray-100 dark:hover:bg-gray-700"
                           >
                             <Plus className="h-4 w-4" />
                           </button>

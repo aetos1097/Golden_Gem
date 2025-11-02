@@ -59,7 +59,7 @@ const About = () => {
               <h3 className="text-xl font-bold text-gray-900 dark:text-white">Calidad Premium</h3>
             </div>
             <p className="text-gray-600 dark:text-gray-300">
-              Usamos solo oro de 18 quilates y esmeraldas de grado AAA, asegurando 
+              Usamos solo oro de 18K y esmeraldas de grado AAA, asegurando 
               durabilidad y belleza que perduran para siempre.
             </p>
           </div>

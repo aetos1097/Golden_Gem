@@ -49,7 +49,7 @@ const Home = () => {
   const features = [
     {
       icon: Shield,
-      title: "Garantía por Vida",
+      title: "Garantia Joyas Colombianas",
       description: "Materiales certificados"
     },
     {
@@ -59,7 +59,7 @@ const Home = () => {
     },
     {
       icon: Award,
-      title: "Oro Fundido en Titanio",
+      title: "Oro de 18K",
       description: "Somos fabricantes"
     }
   ];

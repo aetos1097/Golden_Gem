@@ -5,7 +5,7 @@ const Guarantees = () => {
   const guarantees = [
     {
       icon: Shield,
-      title: 'Garantía por Vida',
+      title: 'Garantia Joyas Colombianas',
       description: 'Todos nuestros productos vienen con garantía de por vida contra defectos de fabricación y pérdida de brillo.'
     },
     {
